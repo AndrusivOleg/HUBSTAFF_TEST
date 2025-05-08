@@ -32,7 +32,7 @@ export default defineConfig({
     trace: "on-first-retry",
 
     baseURL: "https://hubstaff.com",
-    headless: false,
+    headless: true,
     viewport: { width: 1280, height: 720 },
     screenshot: "only-on-failure",
     video: "retain-on-failure",
